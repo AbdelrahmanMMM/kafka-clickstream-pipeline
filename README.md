@@ -28,23 +28,3 @@ Producer → Kafka → Consumer → PostgreSQL
 
 ```bash
 docker compose up -d
-
-
-### 2. Run Producer
-python producer/producer.py
-### 3. Run Consumer
-python consumer/consumer.py
-🧾 Example Event
-{
-  "user_id": "user-12",
-  "event": "page_view",
-  "page": "/home",
-  "device": "mobile",
-  "country": "EG"
-}
-### 📌 What I Learned
-Kafka architecture (producers, consumers, partitions)
-Consumer groups & rebalancing
-Offset management and fault tolerance
-Real-time data processing design
-Trade-offs between performance and durability
