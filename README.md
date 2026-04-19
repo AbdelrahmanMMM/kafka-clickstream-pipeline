@@ -42,7 +42,7 @@ python consumer/consumer.py
   "device": "mobile",
   "country": "EG"
 }
-## 📌 What I Learned
+### 📌 What I Learned
 Kafka architecture (producers, consumers, partitions)
 Consumer groups & rebalancing
 Offset management and fault tolerance
